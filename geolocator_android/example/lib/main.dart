@@ -46,7 +46,7 @@ class _GeolocatorWidgetState extends State<GeolocatorWidget> {
   final List<_PositionItem> _positionItems = <_PositionItem>[];
   StreamSubscription<Position>? _positionStreamSubscription;
   StreamSubscription<ServiceStatus>? _serviceStatusStreamSubscription;
-
+import 'package:geolocator_platform_interface/geolocator_platform_interface.dart';
   @override
   void initState() {
     super.initState();
